@@ -1,0 +1,149 @@
+<html lang="en-US">
+  <head>
+    <title>Small minimal reproduction</title>
+    <style>
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 100%;
+      }
+
+      th,
+      td {
+        border: 1px solid black;
+        padding: 8px;
+      }
+    </style>
+  </head>
+  <body data-standalone="false">
+    <figure>
+      <table
+        data-scale-width="1"
+        data-orientation="portrait">
+        <thead>
+          <tr>
+            <th
+              colspan="1"
+              rowspan="2"
+              scope="col">
+              <p></p>
+            </th>
+            <th
+              style="text-align: center"
+              colspan="1"
+              rowspan="2"
+              scope="col">
+              <p text-align="center">Column 1</p>
+            </th>
+            <th
+              style="text-align: center"
+              colspan="2"
+              rowspan="1"
+              scope="colgroup">
+              <p text-align="center">Column 2 (2 cells)</p>
+            </th>
+          </tr>
+          <tr>
+            <th
+              style="text-align: center"
+              colspan="1"
+              rowspan="1"
+              scope="col">
+              <p text-align="center">Column 2.1</p>
+            </th>
+            <th
+              style="text-align: center"
+              colspan="1"
+              rowspan="1"
+              scope="col">
+              <p text-align="center">Column 2.2</p>
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th
+              style="text-align: center"
+              colspan="1"
+              rowspan="1"
+              scope="row">
+              <p text-align="center">Header 1</p>
+            </th>
+            <td
+              style="text-align: center"
+              colspan="1"
+              rowspan="1">
+              <p text-align="center">Data 1</p>
+            </td>
+            <td
+              style="text-align: center"
+              colspan="1"
+              rowspan="1">
+              <p text-align="center">Data 2</p>
+            </td>
+            <td
+              style="text-align: center"
+              colspan="1"
+              rowspan="1">
+              <p text-align="center">Data 3</p>
+            </td>
+          </tr>
+          <tr>
+            <th
+              style="text-align: center"
+              colspan="1"
+              rowspan="1"
+              scope="row">
+              <p text-align="center">Header 2</p>
+            </th>
+            <td
+              style="text-align: center"
+              colspan="1"
+              rowspan="1">
+              <p text-align="center">Data 4</p>
+            </td>
+            <td
+              style="text-align: center"
+              colspan="1"
+              rowspan="1">
+              <p text-align="center">Date 5</p>
+            </td>
+            <td
+              style="text-align: center"
+              colspan="1"
+              rowspan="1">
+              <p text-align="center">Data 6</p>
+            </td>
+          </tr>
+          <tr>
+            <th
+              style="text-align: center"
+              colspan="1"
+              rowspan="1"
+              scope="row">
+              <p text-align="center">Header 3</p>
+            </th>
+            <td
+              style="text-align: center"
+              colspan="1"
+              rowspan="1">
+              <p text-align="center">Data 7</p>
+            </td>
+            <td
+              style="text-align: center"
+              colspan="1"
+              rowspan="1">
+              <p text-align="center">Data 8</p>
+            </td>
+            <td
+              style="text-align: center"
+              colspan="1"
+              rowspan="1">
+              <p text-align="center">Data 9</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </figure>
+  </body>
+</html>
